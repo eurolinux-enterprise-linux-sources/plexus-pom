@@ -1,6 +1,6 @@
 Name:          plexus-pom
 Version:       3.3.1
-Release:       4%{?dist}
+Release:       5%{?dist}
 Summary:       Root Plexus Projects POM
 Group:         Development/Libraries
 License:       ASL 2.0
@@ -39,6 +39,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.3.1-5
+- Mass rebuild 2013-12-27
+
 * Fri Apr 12 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 3.3.1-4
 - Build with xmvn
 
